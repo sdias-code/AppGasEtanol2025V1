@@ -18,7 +18,7 @@ fun TelaPrincipal(controller: CombustivelController, modifier: Modifier = Modifi
     var lista by remember { mutableStateOf(controller.listar()) }
 
     Column(modifier = modifier.padding(16.dp)) {
-
+        // Título
         Text(
             text = "Gasolina ou Etanol?",
             style = MaterialTheme.typography.headlineMedium,
